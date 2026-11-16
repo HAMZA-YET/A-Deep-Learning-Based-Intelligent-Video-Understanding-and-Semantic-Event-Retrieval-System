@@ -1,0 +1,11 @@
+# Preserve the separately installed CUDA torch/torchvision build.
+open-clip-torch==3.3.0
+opencv-python==4.14.0.94
+faiss-cpu==1.16.0
+streamlit==1.67.0
+numpy==2.4.6
+pillow==13.0.0
+pytest==9.2.0
+
+ultralytics==8.3.221
+lap==0.5.12

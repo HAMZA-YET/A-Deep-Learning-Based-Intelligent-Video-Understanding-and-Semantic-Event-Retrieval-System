@@ -1,0 +1,1 @@
+{"model":"yolo11n.pt","confidence":0.25,"every_n_frames":1,"image_size":640,"device":"auto","tracking":true,"classes":[0,24,26,28,56],"low_threshold":0.1,"high_threshold":0.25,"new_track_threshold":0.25,"lost_seconds":1.0,"match_threshold":0.8}

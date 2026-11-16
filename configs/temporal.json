@@ -1,0 +1,14 @@
+{
+  "min_observations": 6,
+  "min_duration_seconds": 0.6,
+  "max_gap_seconds": 0.2,
+  "min_track_coverage": 0.75,
+  "min_detection_confidence": 0.35,
+  "motion_min": 0.12,
+  "stationary_max": 0.08,
+  "relative_std_max": 0.12,
+  "distance_change_min": 0.25,
+  "near_distance": 0.35,
+  "pickup_lift_min": 0.15,
+  "phase_min_seconds": 0.3
+}

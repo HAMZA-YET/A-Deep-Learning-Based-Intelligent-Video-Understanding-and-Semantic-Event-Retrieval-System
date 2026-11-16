@@ -1,0 +1,11 @@
+{
+  "near_distance": 0.35,
+  "max_gap_seconds": 0.2,
+  "object_chain_iou": 0.65,
+  "min_observations": 5,
+  "min_duration_seconds": 0.5,
+  "min_track_coverage": 0.8,
+  "min_detection_confidence": 0.4,
+  "max_relative_std": 0.12,
+  "min_motion": 0.1
+}

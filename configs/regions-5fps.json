@@ -1,0 +1,16 @@
+{
+  "sampling_fps": 5.0,
+  "batch_size": 16,
+  "padding": 0.2,
+  "min_crop_side": 48,
+  "detector_sizes": [
+    640,
+    960
+  ],
+  "confidence": 0.1,
+  "context_tiles": true,
+  "region_weight": 0.5,
+  "aggregate_top_regions": 2,
+  "dedup_iou": 0.6,
+  "track_match_iou": 0.5
+}

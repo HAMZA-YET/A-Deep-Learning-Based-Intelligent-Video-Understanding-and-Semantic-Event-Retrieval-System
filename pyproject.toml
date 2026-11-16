@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scenemind-mvp"
+version = "0.1.0"
+requires-python = ">=3.11,<3.13"
+dependencies = ["numpy>=2,<3", "pillow>=10,<14", "open-clip-torch==3.3.0", "opencv-python==4.14.0.94", "faiss-cpu==1.16.0", "streamlit==1.67.0", "ultralytics==8.3.221", "lap==0.5.12"]
+
+[project.optional-dependencies]
+temporal = ["pytorchvideo==0.1.5", "fvcore==0.1.5.post20221221", "iopath==0.1.10", "yacs==0.1.8", "termcolor", "portalocker", "parameterized", "tabulate"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/phase1", "tests/phase2", "tests/phase23", "tests/phase24", "tests/phase25", "tests/phase26", "tests/phase27", "tests/regions", "tests/ui", "tests/highlighting", "tests/unified"]
+pythonpath = ["src"]
+
+
+
+
